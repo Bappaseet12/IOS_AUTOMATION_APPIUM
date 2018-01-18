@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test script for project execution start time">
+    <classes>
+      <class name="com.appium.model.StartExecution"/>
+    </classes>
+  </test> <!-- Test script for project execution start time -->
+  <test name="Showing Map Location">
+    <classes>
+      <class name="com.redbox.testscripts.MapLocation"/>
+    </classes>
+  </test> <!-- Showing Map Location -->
+  <test name="Showing Map Locations">
+    <classes>
+      <class name="com.redbox.testscripts.NewReleasesScreenTv"/>
+    </classes>
+  </test> <!-- Showing Map Locations -->
+  <test name="Showing New Release Screen in Games Tab">
+    <classes>
+      <class name="com.redbox.testscripts.NewReleaseScreenGames"/>
+    </classes>
+  </test> <!-- Showing New Release Screen in Games Tab -->
+  <test name="Showing New Release Screen in Movies Tab">
+    <classes>
+      <class name="com.redbox.testscripts.NewReleaseScreenMovies"/>
+    </classes>
+  </test> <!-- Showing New Release Screen in Movies Tab -->
+  <test name="Showing New Release Movie">
+    <classes>
+      <class name="com.redbox.testscripts.HomeScreenValidation"/>
+    </classes>
+  </test> <!-- Showing New Release Movie -->
+  <test name="Scrolling Reels Horizintally">
+    <classes>
+      <class name="com.redbox.testscripts.ScrollHorizontalOnReels"/>
+    </classes>
+  </test> <!-- Scrolling Reels Horizintally -->
+  <test name="Scrolling Up and Scroll Reels">
+    <classes>
+      <class name="com.redbox.testscripts.ScrollingUpAndScrollReel"/>
+    </classes>
+  </test> <!-- Scrolling Up and Scroll Reels -->
+  <test name="Validating Fab Tray Keyboard ">
+    <classes>
+      <class name="com.redbox.testscripts.FabTrayKeyboadValidation"/>
+    </classes>
+  </test> <!-- Validating Fab Tray Keyboard  -->
+  <test name="Validating Browse All option in Location Fab tray ">
+    <classes>
+      <class name="com.redbox.testscripts.LocationBrowseAllBoxes"/>
+    </classes>
+  </test> <!-- Validating Browse All option in Location Fab tray  -->
+  <test name="Searching Location By City , State and PIN ">
+    <classes>
+      <class name="com.redbox.testscripts.SearchLocationByCityStatePIN"/>
+    </classes>
+  </test> <!-- Searching Location By City , State and PIN  -->
+  <test name="Select Location by using select Button in Fab Tray ">
+    <classes>
+      <class name="com.redbox.testscripts.SelectButtonInFabTray"/>
+    </classes>
+  </test> <!-- Select Location by using select Button in Fab Tray  -->
+  <test name="Adding Show Maps Button in Default Location">
+    <classes>
+      <class name="com.redbox.testscripts.ShowMapIconDefaultLocation"/>
+    </classes>
+  </test> <!-- Adding Show Maps Button in Default Location -->
+  <test name="Audience Review Games">
+    <classes>
+      <class name="com.redbox.testscripts.AudienceReview_Games"/>
+    </classes>
+  </test> <!-- Audience Review Games -->
+  <test name="Audience Review TV">
+    <classes>
+      <class name="com.redbox.testscripts.AudienceReview_TV"/>
+    </classes>
+  </test> <!-- Audience Review TV -->
+  <test name="Location List In Ascending Order">
+    <classes>
+      <class name="com.redbox.testscripts.LocationListInAscendingOrder"/>
+    </classes>
+  </test> <!-- Location List In Ascending Order -->
+  <test name="Location Map is Dimmed ">
+    <classes>
+      <class name="com.redbox.testscripts.LocationMapDimmed"/>
+    </classes>
+  </test> <!-- Location Map is Dimmed  -->
+  <test name="Test script for project execution end time">
+    <classes>
+      <class name="com.appium.model.EndExecution"/>
+    </classes>
+  </test> <!-- Test script for project execution end time -->
+  <test name="Showing Map Locations(failed)" parallel="none">
+    <classes>
+      <class name="com.redbox.testscripts.ScrollHorizontalOnReels">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollHorizontalOnReels -->
+      <class name="com.redbox.testscripts.ScrollingUpAndScrollReel">
+        <methods>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollingUpAndScrollReel -->
+      <class name="com.redbox.testscripts.SearchLocationByCityStatePIN">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SearchLocationByCityStatePIN -->
+      <class name="com.redbox.testscripts.SelectButtonInFabTray">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SelectButtonInFabTray -->
+      <class name="com.redbox.testscripts.LocationMapDimmed">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationMapDimmed -->
+      <class name="com.redbox.testscripts.NewReleasesScreenTv">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleasesScreenTv -->
+      <class name="com.redbox.testscripts.ShowMapIconDefaultLocation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ShowMapIconDefaultLocation -->
+      <class name="com.redbox.testscripts.MapLocation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.MapLocation -->
+      <class name="com.redbox.testscripts.NewReleaseScreenGames">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenGames -->
+      <class name="com.redbox.testscripts.HomeScreenValidation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.HomeScreenValidation -->
+      <class name="com.redbox.testscripts.LocationBrowseAllBoxes">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationBrowseAllBoxes -->
+      <class name="com.redbox.testscripts.NewReleaseScreenMovies">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenMovies -->
+      <class name="com.redbox.testscripts.FabTrayKeyboadValidation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.FabTrayKeyboadValidation -->
+      <class name="com.redbox.testscripts.AudienceReview_Games">
+        <methods>
+          <include name="startUp"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_Games -->
+      <class name="com.redbox.testscripts.AudienceReview_TV">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_TV -->
+      <class name="com.redbox.testscripts.LocationListInAscendingOrder">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationListInAscendingOrder -->
+    </classes>
+  </test> <!-- Showing Map Locations(failed) -->
+  <test name="Scrolling Up and Scroll Reels(failed)" parallel="none">
+    <classes>
+      <class name="com.redbox.testscripts.ScrollingUpAndScrollReel">
+        <methods>
+          <include name="startUp"/>
+          <include name="launchApplication"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollingUpAndScrollReel -->
+      <class name="com.redbox.testscripts.ScrollHorizontalOnReels">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollHorizontalOnReels -->
+      <class name="com.redbox.testscripts.SearchLocationByCityStatePIN">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SearchLocationByCityStatePIN -->
+      <class name="com.redbox.testscripts.SelectButtonInFabTray">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SelectButtonInFabTray -->
+      <class name="com.redbox.testscripts.LocationMapDimmed">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationMapDimmed -->
+      <class name="com.redbox.testscripts.NewReleasesScreenTv">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleasesScreenTv -->
+      <class name="com.redbox.testscripts.ShowMapIconDefaultLocation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ShowMapIconDefaultLocation -->
+      <class name="com.redbox.testscripts.MapLocation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.MapLocation -->
+      <class name="com.redbox.testscripts.NewReleaseScreenGames">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenGames -->
+      <class name="com.redbox.testscripts.HomeScreenValidation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.HomeScreenValidation -->
+      <class name="com.redbox.testscripts.LocationBrowseAllBoxes">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationBrowseAllBoxes -->
+      <class name="com.redbox.testscripts.NewReleaseScreenMovies">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenMovies -->
+      <class name="com.redbox.testscripts.FabTrayKeyboadValidation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.FabTrayKeyboadValidation -->
+      <class name="com.redbox.testscripts.AudienceReview_Games">
+        <methods>
+          <include name="startUp"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_Games -->
+      <class name="com.redbox.testscripts.AudienceReview_TV">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_TV -->
+      <class name="com.redbox.testscripts.LocationListInAscendingOrder">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationListInAscendingOrder -->
+    </classes>
+  </test> <!-- Scrolling Up and Scroll Reels(failed) -->
+  <test name="Searching Location By City , State and PIN (failed)" parallel="none">
+    <classes>
+      <class name="com.redbox.testscripts.ScrollHorizontalOnReels">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollHorizontalOnReels -->
+      <class name="com.redbox.testscripts.ScrollingUpAndScrollReel">
+        <methods>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollingUpAndScrollReel -->
+      <class name="com.redbox.testscripts.SearchLocationByCityStatePIN">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+          <include name="ManagelocationVerify"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SearchLocationByCityStatePIN -->
+      <class name="com.redbox.testscripts.SelectButtonInFabTray">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SelectButtonInFabTray -->
+      <class name="com.redbox.testscripts.LocationMapDimmed">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationMapDimmed -->
+      <class name="com.redbox.testscripts.NewReleasesScreenTv">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleasesScreenTv -->
+      <class name="com.redbox.testscripts.ShowMapIconDefaultLocation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ShowMapIconDefaultLocation -->
+      <class name="com.redbox.testscripts.MapLocation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.MapLocation -->
+      <class name="com.redbox.testscripts.NewReleaseScreenGames">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenGames -->
+      <class name="com.redbox.testscripts.HomeScreenValidation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.HomeScreenValidation -->
+      <class name="com.redbox.testscripts.LocationBrowseAllBoxes">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationBrowseAllBoxes -->
+      <class name="com.redbox.testscripts.NewReleaseScreenMovies">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenMovies -->
+      <class name="com.redbox.testscripts.FabTrayKeyboadValidation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.FabTrayKeyboadValidation -->
+      <class name="com.redbox.testscripts.AudienceReview_Games">
+        <methods>
+          <include name="startUp"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_Games -->
+      <class name="com.redbox.testscripts.AudienceReview_TV">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_TV -->
+      <class name="com.redbox.testscripts.LocationListInAscendingOrder">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationListInAscendingOrder -->
+    </classes>
+  </test> <!-- Searching Location By City , State and PIN (failed) -->
+  <test name="Select Location by using select Button in Fab Tray (failed)" parallel="none">
+    <classes>
+      <class name="com.redbox.testscripts.ScrollHorizontalOnReels">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollHorizontalOnReels -->
+      <class name="com.redbox.testscripts.ScrollingUpAndScrollReel">
+        <methods>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollingUpAndScrollReel -->
+      <class name="com.redbox.testscripts.SearchLocationByCityStatePIN">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SearchLocationByCityStatePIN -->
+      <class name="com.redbox.testscripts.SelectButtonInFabTray">
+        <methods>
+          <include name="startUp"/>
+          <include name="ManagelocationVerify"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SelectButtonInFabTray -->
+      <class name="com.redbox.testscripts.LocationMapDimmed">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationMapDimmed -->
+      <class name="com.redbox.testscripts.NewReleasesScreenTv">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleasesScreenTv -->
+      <class name="com.redbox.testscripts.ShowMapIconDefaultLocation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ShowMapIconDefaultLocation -->
+      <class name="com.redbox.testscripts.MapLocation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.MapLocation -->
+      <class name="com.redbox.testscripts.NewReleaseScreenGames">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenGames -->
+      <class name="com.redbox.testscripts.HomeScreenValidation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.HomeScreenValidation -->
+      <class name="com.redbox.testscripts.LocationBrowseAllBoxes">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationBrowseAllBoxes -->
+      <class name="com.redbox.testscripts.NewReleaseScreenMovies">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenMovies -->
+      <class name="com.redbox.testscripts.FabTrayKeyboadValidation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.FabTrayKeyboadValidation -->
+      <class name="com.redbox.testscripts.AudienceReview_Games">
+        <methods>
+          <include name="startUp"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_Games -->
+      <class name="com.redbox.testscripts.AudienceReview_TV">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_TV -->
+      <class name="com.redbox.testscripts.LocationListInAscendingOrder">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationListInAscendingOrder -->
+    </classes>
+  </test> <!-- Select Location by using select Button in Fab Tray (failed) -->
+  <test name="Audience Review TV(failed)" parallel="none">
+    <classes>
+      <class name="com.redbox.testscripts.ScrollHorizontalOnReels">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollHorizontalOnReels -->
+      <class name="com.redbox.testscripts.ScrollingUpAndScrollReel">
+        <methods>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollingUpAndScrollReel -->
+      <class name="com.redbox.testscripts.SearchLocationByCityStatePIN">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SearchLocationByCityStatePIN -->
+      <class name="com.redbox.testscripts.SelectButtonInFabTray">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SelectButtonInFabTray -->
+      <class name="com.redbox.testscripts.LocationMapDimmed">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationMapDimmed -->
+      <class name="com.redbox.testscripts.NewReleasesScreenTv">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleasesScreenTv -->
+      <class name="com.redbox.testscripts.ShowMapIconDefaultLocation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ShowMapIconDefaultLocation -->
+      <class name="com.redbox.testscripts.MapLocation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.MapLocation -->
+      <class name="com.redbox.testscripts.NewReleaseScreenGames">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenGames -->
+      <class name="com.redbox.testscripts.HomeScreenValidation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.HomeScreenValidation -->
+      <class name="com.redbox.testscripts.LocationBrowseAllBoxes">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationBrowseAllBoxes -->
+      <class name="com.redbox.testscripts.NewReleaseScreenMovies">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenMovies -->
+      <class name="com.redbox.testscripts.FabTrayKeyboadValidation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.FabTrayKeyboadValidation -->
+      <class name="com.redbox.testscripts.AudienceReview_Games">
+        <methods>
+          <include name="startUp"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_Games -->
+      <class name="com.redbox.testscripts.AudienceReview_TV">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="audienceReviewScreen"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_TV -->
+      <class name="com.redbox.testscripts.LocationListInAscendingOrder">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationListInAscendingOrder -->
+    </classes>
+  </test> <!-- Audience Review TV(failed) -->
+  <test name="Location List In Ascending Order(failed)" parallel="none">
+    <classes>
+      <class name="com.redbox.testscripts.ScrollHorizontalOnReels">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollHorizontalOnReels -->
+      <class name="com.redbox.testscripts.ScrollingUpAndScrollReel">
+        <methods>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollingUpAndScrollReel -->
+      <class name="com.redbox.testscripts.SearchLocationByCityStatePIN">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SearchLocationByCityStatePIN -->
+      <class name="com.redbox.testscripts.SelectButtonInFabTray">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SelectButtonInFabTray -->
+      <class name="com.redbox.testscripts.LocationMapDimmed">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationMapDimmed -->
+      <class name="com.redbox.testscripts.NewReleasesScreenTv">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleasesScreenTv -->
+      <class name="com.redbox.testscripts.ShowMapIconDefaultLocation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ShowMapIconDefaultLocation -->
+      <class name="com.redbox.testscripts.MapLocation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.MapLocation -->
+      <class name="com.redbox.testscripts.NewReleaseScreenGames">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenGames -->
+      <class name="com.redbox.testscripts.HomeScreenValidation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.HomeScreenValidation -->
+      <class name="com.redbox.testscripts.LocationBrowseAllBoxes">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationBrowseAllBoxes -->
+      <class name="com.redbox.testscripts.NewReleaseScreenMovies">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenMovies -->
+      <class name="com.redbox.testscripts.FabTrayKeyboadValidation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.FabTrayKeyboadValidation -->
+      <class name="com.redbox.testscripts.AudienceReview_Games">
+        <methods>
+          <include name="startUp"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_Games -->
+      <class name="com.redbox.testscripts.AudienceReview_TV">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_TV -->
+      <class name="com.redbox.testscripts.LocationListInAscendingOrder">
+        <methods>
+          <include name="startUp"/>
+          <include name="ManagelocationVerify"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationListInAscendingOrder -->
+    </classes>
+  </test> <!-- Location List In Ascending Order(failed) -->
+  <test name="Location Map is Dimmed (failed)" parallel="none">
+    <classes>
+      <class name="com.redbox.testscripts.ScrollHorizontalOnReels">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollHorizontalOnReels -->
+      <class name="com.redbox.testscripts.ScrollingUpAndScrollReel">
+        <methods>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ScrollingUpAndScrollReel -->
+      <class name="com.redbox.testscripts.SearchLocationByCityStatePIN">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SearchLocationByCityStatePIN -->
+      <class name="com.redbox.testscripts.SelectButtonInFabTray">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.SelectButtonInFabTray -->
+      <class name="com.redbox.testscripts.LocationMapDimmed">
+        <methods>
+          <include name="ManagelocationVerify"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationMapDimmed -->
+      <class name="com.redbox.testscripts.NewReleasesScreenTv">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleasesScreenTv -->
+      <class name="com.redbox.testscripts.ShowMapIconDefaultLocation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.ShowMapIconDefaultLocation -->
+      <class name="com.redbox.testscripts.MapLocation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.MapLocation -->
+      <class name="com.redbox.testscripts.NewReleaseScreenGames">
+        <methods>
+          <include name="startUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenGames -->
+      <class name="com.redbox.testscripts.HomeScreenValidation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.HomeScreenValidation -->
+      <class name="com.redbox.testscripts.LocationBrowseAllBoxes">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationBrowseAllBoxes -->
+      <class name="com.redbox.testscripts.NewReleaseScreenMovies">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenMovies -->
+      <class name="com.redbox.testscripts.FabTrayKeyboadValidation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.FabTrayKeyboadValidation -->
+      <class name="com.redbox.testscripts.AudienceReview_Games">
+        <methods>
+          <include name="startUp"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_Games -->
+      <class name="com.redbox.testscripts.AudienceReview_TV">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.AudienceReview_TV -->
+      <class name="com.redbox.testscripts.LocationListInAscendingOrder">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.LocationListInAscendingOrder -->
+    </classes>
+  </test> <!-- Location Map is Dimmed (failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+
+	<test name="Test script for project execution start time">
+		<classes>
+			<class name="com.appium.model.StartExecution" />
+		</classes>
+	</test>
+	
+	<test name="Showing Map Location">
+		<classes>
+			<class name="com.redbox.testscripts.MapLocation"/>
+		</classes>
+	</test>
+	<test name="Showing New Releases screen TV">
+		<classes>
+			<class name="com.redbox.testscripts.NewReleasesScreenTv"/>
+		</classes>
+	</test>
+	
+	<test name="Showing New Release Screen in Games Tab" >
+		<classes>
+			<class name="com.redbox.testscripts.NewReleaseScreenGames"/>
+		</classes>
+	</test>
+	
+	<test name="Showing New Release Screen in Movies Tab" >
+		<classes>
+			<class name="com.redbox.testscripts.NewReleaseScreenMovies"/>
+		</classes>
+	</test>
+	<test name="Showing New Release Movie" >
+		<classes>
+			<class name="com.redbox.testscripts.HomeScreenValidation"/>
+		</classes>
+	</test>
+	
+	<test name="Scrolling Reels Horizintally" >
+		<classes>
+			<class name="com.redbox.testscripts.ScrollHorizontalOnReels"/>
+		</classes>
+	</test>
+	<test name="Scrolling Up and Scroll Reels" >
+		<classes>
+			<class name="com.redbox.testscripts.ScrollingUpAndScrollReel"/>
+		</classes>
+	</test>
+	<test name="Validating Fab Tray Keyboard " >
+		<classes>
+			<class name="com.redbox.testscripts.FabTrayKeyboadValidation"/>
+		</classes>
+	</test>
+	
+	<test name="Validating Browse All option in Location Fab tray " >
+		<classes>
+			<class name="com.redbox.testscripts.LocationBrowseAllBoxes"/>
+		</classes>
+	</test>
+	<test name="Searching Location By City , State and PIN " >
+		<classes>
+			<class name="com.redbox.testscripts.SearchLocationByCityStatePIN"/>
+		</classes>
+	</test>
+	<test name="Select Location by using select Button in Fab Tray " >
+		<classes>
+			<class name="com.redbox.testscripts.SelectButtonInFabTray"/>
+		</classes>
+			</test>
+		<test name="Adding Show Maps Button in Default Location" >
+		<classes>
+			<class name="com.redbox.testscripts.ShowMapIconDefaultLocation"/>
+		</classes>
+	</test>
+	<test name="Audience Review Games" >
+		<classes>
+			<class name="com.redbox.testscripts.AudienceReview_Games"/>
+		</classes>
+	</test>
+	<test name="Audience Review TV" >
+		<classes>
+			<class name="com.redbox.testscripts.AudienceReview_TV"/>
+		</classes>
+	</test>
+	
+	
+	
+	<test name="Location List In Ascending Order" >
+		<classes>
+			<class name="com.redbox.testscripts.LocationListInAscendingOrder"/>
+		</classes>
+	</test>
+	
+	<test name="Location Map is Dimmed ">
+		<classes>
+			<class name="com.redbox.testscripts.LocationMapDimmed"/>
+		</classes>
+	</test>
+	
+<test name="Test script for project execution end time">
+		<classes>
+			<class name="com.appium.model.EndExecution" />
+		</classes>
+	</test> 
+	
+	
+
+</suite>

@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="3" total="18" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[location Icon is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[show Map link displayed as ]]>
+    </line>
+    <line>
+      <![CDATA[Map Handle icon displayed]]>
+    </line>
+    <line>
+      <![CDATA[search Icon displayed  ]]>
+    </line>
+    <line>
+      <![CDATA[New PS4 Inside Games Tab Displayed]]>
+    </line>
+    <line>
+      <![CDATA[New PS4 Browse All Inside Games Tab Displayed]]>
+    </line>
+    <line>
+      <![CDATA[New XBOX ONE Inside Games Tab Displayed]]>
+    </line>
+    <line>
+      <![CDATA[New XBOX ONE Browse All Inside Games Tab Displayed]]>
+    </line>
+    <line>
+      <![CDATA[New XBOX 360 Reel Inside Games Tab Displayed]]>
+    </line>
+    <line>
+      <![CDATA[New At Box Reel Displayed]]>
+    </line>
+    <line>
+      <![CDATA[New At the Box Browse All Displayed]]>
+    </line>
+    <line>
+      <![CDATA[New On Demand Displayed]]>
+    </line>
+    <line>
+      <![CDATA[New On Demand Browse All Displayed]]>
+    </line>
+    <line>
+      <![CDATA[New Tab is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Search Icon is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[My Bag Icon Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Movies Tab is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[TV Tab is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Games Tab is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Redbox Title is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[location Icon is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Upcoming Tab is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[My Redbox Tab is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browse Tab is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[More Tab is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[location Icon is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[keyBoard displayed  ]]>
+    </line>
+    <line>
+      <![CDATA[location Icon is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[show Map link displayed as ]]>
+    </line>
+    <line>
+      <![CDATA[Title screen displayed]]>
+    </line>
+    <line>
+      <![CDATA[Review screen displayed]]>
+    </line>
+    <line>
+      <![CDATA[0 Audience Reviews]]>
+    </line>
+    <line>
+      <![CDATA[Farming Simulator 17 PS4]]>
+    </line>
+    <line>
+      <![CDATA[(average : 0.0]]>
+    </line>
+    <line>
+      <![CDATA[Back Button displayed]]>
+    </line>
+    <line>
+      <![CDATA[item Icon displayed]]>
+    </line>
+    <line>
+      <![CDATA[My Bag Icon Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Title screen displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1685452" started-at="2018-01-18T09:57:17Z" finished-at="2018-01-18T10:25:23Z">
+    <groups>
+    </groups>
+    <test name="Test script for project execution start time" duration-ms="65" started-at="2018-01-18T09:57:17Z" finished-at="2018-01-18T09:57:17Z">
+      <class name="com.appium.model.StartExecution">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.appium.model.StartExecution@6a2bcfcb]" name="startTime" duration-ms="52" started-at="2018-01-18T15:27:17Z" finished-at="2018-01-18T15:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+      </class> <!-- com.appium.model.StartExecution -->
+    </test> <!-- Test script for project execution start time -->
+    <test name="Showing Map Location" duration-ms="22381" started-at="2018-01-18T09:57:17Z" finished-at="2018-01-18T09:57:40Z">
+      <class name="com.redbox.testscripts.MapLocation">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.MapLocation@464bee09]" name="startUp" is-config="true" duration-ms="6453" started-at="2018-01-18T15:27:17Z" finished-at="2018-01-18T15:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="ManagelocationVerify()[pri:0, instance:com.redbox.testscripts.MapLocation@464bee09]" name="ManagelocationVerify" duration-ms="15601" started-at="2018-01-18T15:27:24Z" finished-at="2018-01-18T15:27:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[location Icon is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[show Map link displayed as ]]>
+            </line>
+            <line>
+              <![CDATA[Map Handle icon displayed]]>
+            </line>
+            <line>
+              <![CDATA[search Icon displayed  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ManagelocationVerify -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.MapLocation@464bee09]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:27:24Z" finished-at="2018-01-18T15:27:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.MapLocation.ManagelocationVerify() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.MapLocation@464bee09]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:27:39Z" finished-at="2018-01-18T15:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.MapLocation@464bee09]" name="tearDown" is-config="true" duration-ms="324" started-at="2018-01-18T15:27:39Z" finished-at="2018-01-18T15:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbox.testscripts.MapLocation -->
+    </test> <!-- Showing Map Location -->
+    <test name="Showing Map Locations" duration-ms="148" started-at="2018-01-18T09:57:40Z" finished-at="2018-01-18T09:57:40Z">
+      <class name="com.redbox.testscripts.NewReleasesScreenTv">
+        <test-method status="SKIP" signature="startUp()[pri:0, instance:com.redbox.testscripts.NewReleasesScreenTv@598067a5]" name="startUp" is-config="true" duration-ms="0" started-at="2018-01-18T15:27:40Z" finished-at="2018-01-18T15:27:40Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[NewReleasesScreenTv execution is skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: NewReleasesScreenTv execution is skipped
+	at com.redbox.testscripts.NewReleasesScreenTv.startUp(NewReleasesScreenTv.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="SKIP" signature="launchApplication()[pri:0, instance:com.redbox.testscripts.NewReleasesScreenTv@598067a5]" name="launchApplication" duration-ms="1" started-at="2018-01-18T15:27:40Z" finished-at="2018-01-18T15:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="SKIP" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.NewReleasesScreenTv@598067a5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:27:40Z" finished-at="2018-01-18T15:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.redbox.testscripts.NewReleasesScreenTv@598067a5]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:27:40Z" finished-at="2018-01-18T15:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.redbox.testscripts.NewReleasesScreenTv@598067a5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-01-18T15:27:40Z" finished-at="2018-01-18T15:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbox.testscripts.NewReleasesScreenTv -->
+    </test> <!-- Showing Map Locations -->
+    <test name="Showing New Release Screen in Games Tab" duration-ms="128192" started-at="2018-01-18T09:57:40Z" finished-at="2018-01-18T09:59:48Z">
+      <class name="com.redbox.testscripts.NewReleaseScreenGames">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.NewReleaseScreenGames@589838eb]" name="startUp" is-config="true" duration-ms="5153" started-at="2018-01-18T15:27:40Z" finished-at="2018-01-18T15:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.redbox.testscripts.NewReleaseScreenGames@589838eb]" name="launchApplication" duration-ms="122551" started-at="2018-01-18T15:27:45Z" finished-at="2018-01-18T15:29:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[New PS4 Inside Games Tab Displayed]]>
+            </line>
+            <line>
+              <![CDATA[New PS4 Browse All Inside Games Tab Displayed]]>
+            </line>
+            <line>
+              <![CDATA[New XBOX ONE Inside Games Tab Displayed]]>
+            </line>
+            <line>
+              <![CDATA[New XBOX ONE Browse All Inside Games Tab Displayed]]>
+            </line>
+            <line>
+              <![CDATA[New XBOX 360 Reel Inside Games Tab Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.NewReleaseScreenGames@589838eb]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:27:45Z" finished-at="2018-01-18T15:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.NewReleaseScreenGames.launchApplication() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.NewReleaseScreenGames@589838eb]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:29:48Z" finished-at="2018-01-18T15:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.NewReleaseScreenGames@589838eb]" name="tearDown" is-config="true" duration-ms="486" started-at="2018-01-18T15:29:48Z" finished-at="2018-01-18T15:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenGames -->
+    </test> <!-- Showing New Release Screen in Games Tab -->
+    <test name="Showing New Release Screen in Movies Tab" duration-ms="48776" started-at="2018-01-18T09:59:48Z" finished-at="2018-01-18T10:00:37Z">
+      <class name="com.redbox.testscripts.NewReleaseScreenMovies">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.NewReleaseScreenMovies@3fee9989]" name="startUp" is-config="true" duration-ms="4956" started-at="2018-01-18T15:29:48Z" finished-at="2018-01-18T15:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.redbox.testscripts.NewReleaseScreenMovies@3fee9989]" name="launchApplication" duration-ms="43471" started-at="2018-01-18T15:29:53Z" finished-at="2018-01-18T15:30:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[New At Box Reel Displayed]]>
+            </line>
+            <line>
+              <![CDATA[New At the Box Browse All Displayed]]>
+            </line>
+            <line>
+              <![CDATA[New On Demand Displayed]]>
+            </line>
+            <line>
+              <![CDATA[New On Demand Browse All Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.NewReleaseScreenMovies@3fee9989]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:29:53Z" finished-at="2018-01-18T15:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.NewReleaseScreenMovies.launchApplication() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.NewReleaseScreenMovies@3fee9989]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:30:37Z" finished-at="2018-01-18T15:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.NewReleaseScreenMovies@3fee9989]" name="tearDown" is-config="true" duration-ms="346" started-at="2018-01-18T15:30:37Z" finished-at="2018-01-18T15:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbox.testscripts.NewReleaseScreenMovies -->
+    </test> <!-- Showing New Release Screen in Movies Tab -->
+    <test name="Showing New Release Movie" duration-ms="32593" started-at="2018-01-18T10:00:37Z" finished-at="2018-01-18T10:01:10Z">
+      <class name="com.redbox.testscripts.HomeScreenValidation">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.HomeScreenValidation@e45f292]" name="startUp" is-config="true" duration-ms="5095" started-at="2018-01-18T15:30:37Z" finished-at="2018-01-18T15:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.redbox.testscripts.HomeScreenValidation@e45f292]" name="launchApplication" duration-ms="27263" started-at="2018-01-18T15:30:42Z" finished-at="2018-01-18T15:31:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[New Tab is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Search Icon is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[My Bag Icon Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Movies Tab is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[TV Tab is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Games Tab is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Redbox Title is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[location Icon is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Upcoming Tab is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[My Redbox Tab is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Browse Tab is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[More Tab is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.HomeScreenValidation@e45f292]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:30:42Z" finished-at="2018-01-18T15:30:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.HomeScreenValidation.launchApplication() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.HomeScreenValidation@e45f292]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:31:09Z" finished-at="2018-01-18T15:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.HomeScreenValidation@e45f292]" name="tearDown" is-config="true" duration-ms="235" started-at="2018-01-18T15:31:09Z" finished-at="2018-01-18T15:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbox.testscripts.HomeScreenValidation -->
+    </test> <!-- Showing New Release Movie -->
+    <test name="Scrolling Reels Horizintally" duration-ms="380591" started-at="2018-01-18T10:01:10Z" finished-at="2018-01-18T10:07:30Z">
+      <class name="com.redbox.testscripts.ScrollHorizontalOnReels">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.ScrollHorizontalOnReels@27c20538]" name="startUp" is-config="true" duration-ms="5202" started-at="2018-01-18T15:31:10Z" finished-at="2018-01-18T15:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.redbox.testscripts.ScrollHorizontalOnReels@27c20538]" name="launchApplication" duration-ms="374990" started-at="2018-01-18T15:31:15Z" finished-at="2018-01-18T15:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.ScrollHorizontalOnReels@27c20538]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:31:15Z" finished-at="2018-01-18T15:31:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.ScrollHorizontalOnReels.launchApplication() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.ScrollHorizontalOnReels@27c20538]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-01-18T15:37:30Z" finished-at="2018-01-18T15:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.ScrollHorizontalOnReels@27c20538]" name="tearDown" is-config="true" duration-ms="397" started-at="2018-01-18T15:37:30Z" finished-at="2018-01-18T15:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbox.testscripts.ScrollHorizontalOnReels -->
+    </test> <!-- Scrolling Reels Horizintally -->
+    <test name="Scrolling Up and Scroll Reels" duration-ms="27209" started-at="2018-01-18T10:07:30Z" finished-at="2018-01-18T10:07:57Z">
+      <class name="com.redbox.testscripts.ScrollingUpAndScrollReel">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.ScrollingUpAndScrollReel@4566e5bd]" name="startUp" is-config="true" duration-ms="6496" started-at="2018-01-18T15:37:30Z" finished-at="2018-01-18T15:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.ScrollingUpAndScrollReel@4566e5bd]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-01-18T15:37:37Z" finished-at="2018-01-18T15:37:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.ScrollingUpAndScrollReel.launchApplication() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="launchApplication()[pri:0, instance:com.redbox.testscripts.ScrollingUpAndScrollReel@4566e5bd]" name="launchApplication" duration-ms="20280" started-at="2018-01-18T15:37:37Z" finished-at="2018-01-18T15:37:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at com.redbox.testscripts.ScrollingUpAndScrollReel.launchApplication(ScrollingUpAndScrollReel.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.ScrollingUpAndScrollReel@4566e5bd]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:37:57Z" finished-at="2018-01-18T15:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.ScrollingUpAndScrollReel@4566e5bd]" name="tearDown" is-config="true" duration-ms="427" started-at="2018-01-18T15:37:57Z" finished-at="2018-01-18T15:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbox.testscripts.ScrollingUpAndScrollReel -->
+    </test> <!-- Scrolling Up and Scroll Reels -->
+    <test name="Validating Fab Tray Keyboard " duration-ms="81638" started-at="2018-01-18T10:07:57Z" finished-at="2018-01-18T10:09:19Z">
+      <class name="com.redbox.testscripts.FabTrayKeyboadValidation">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.FabTrayKeyboadValidation@5649fd9b]" name="startUp" is-config="true" duration-ms="5301" started-at="2018-01-18T15:37:57Z" finished-at="2018-01-18T15:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="ManagelocationVerify()[pri:0, instance:com.redbox.testscripts.FabTrayKeyboadValidation@5649fd9b]" name="ManagelocationVerify" duration-ms="75957" started-at="2018-01-18T15:38:03Z" finished-at="2018-01-18T15:39:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[location Icon is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[keyBoard displayed  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ManagelocationVerify -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.FabTrayKeyboadValidation@5649fd9b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:38:03Z" finished-at="2018-01-18T15:38:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.FabTrayKeyboadValidation.ManagelocationVerify() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.FabTrayKeyboadValidation@5649fd9b]" name="tearDown" is-config="true" duration-ms="379" started-at="2018-01-18T15:39:19Z" finished-at="2018-01-18T15:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.FabTrayKeyboadValidation@5649fd9b]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:39:19Z" finished-at="2018-01-18T15:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.redbox.testscripts.FabTrayKeyboadValidation -->
+    </test> <!-- Validating Fab Tray Keyboard  -->
+    <test name="Validating Browse All option in Location Fab tray " duration-ms="156990" started-at="2018-01-18T10:09:19Z" finished-at="2018-01-18T10:11:56Z">
+      <class name="com.redbox.testscripts.LocationBrowseAllBoxes">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.LocationBrowseAllBoxes@64bfbc86]" name="startUp" is-config="true" duration-ms="5191" started-at="2018-01-18T15:39:19Z" finished-at="2018-01-18T15:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="ManagelocationVerify()[pri:0, instance:com.redbox.testscripts.LocationBrowseAllBoxes@64bfbc86]" name="ManagelocationVerify" duration-ms="151256" started-at="2018-01-18T15:39:24Z" finished-at="2018-01-18T15:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagelocationVerify -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.LocationBrowseAllBoxes@64bfbc86]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:39:24Z" finished-at="2018-01-18T15:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.LocationBrowseAllBoxes.ManagelocationVerify() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.LocationBrowseAllBoxes@64bfbc86]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-01-18T15:41:55Z" finished-at="2018-01-18T15:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.LocationBrowseAllBoxes@64bfbc86]" name="tearDown" is-config="true" duration-ms="541" started-at="2018-01-18T15:41:55Z" finished-at="2018-01-18T15:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbox.testscripts.LocationBrowseAllBoxes -->
+    </test> <!-- Validating Browse All option in Location Fab tray  -->
+    <test name="Searching Location By City , State and PIN " duration-ms="426386" started-at="2018-01-18T10:11:56Z" finished-at="2018-01-18T10:19:02Z">
+      <class name="com.redbox.testscripts.SearchLocationByCityStatePIN">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.SearchLocationByCityStatePIN@7e0b0338]" name="startUp" is-config="true" duration-ms="5317" started-at="2018-01-18T15:41:56Z" finished-at="2018-01-18T15:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.SearchLocationByCityStatePIN@7e0b0338]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:42:01Z" finished-at="2018-01-18T15:42:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.SearchLocationByCityStatePIN.ManagelocationVerify() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="ManagelocationVerify()[pri:0, instance:com.redbox.testscripts.SearchLocationByCityStatePIN@7e0b0338]" name="ManagelocationVerify" duration-ms="420528" started-at="2018-01-18T15:42:01Z" finished-at="2018-01-18T15:49:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.redbox.testscripts.SearchLocationByCityStatePIN.ManagelocationVerify(SearchLocationByCityStatePIN.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[location Icon is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ManagelocationVerify -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.SearchLocationByCityStatePIN@7e0b0338]" name="tearDown" is-config="true" duration-ms="538" started-at="2018-01-18T15:49:02Z" finished-at="2018-01-18T15:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.SearchLocationByCityStatePIN@7e0b0338]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:49:02Z" finished-at="2018-01-18T15:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.redbox.testscripts.SearchLocationByCityStatePIN -->
+    </test> <!-- Searching Location By City , State and PIN  -->
+    <test name="Select Location by using select Button in Fab Tray " duration-ms="107" started-at="2018-01-18T10:19:02Z" finished-at="2018-01-18T10:19:03Z">
+      <class name="com.redbox.testscripts.SelectButtonInFabTray">
+        <test-method status="SKIP" signature="startUp()[pri:0, instance:com.redbox.testscripts.SelectButtonInFabTray@544fe44c]" name="startUp" is-config="true" duration-ms="0" started-at="2018-01-18T15:49:02Z" finished-at="2018-01-18T15:49:02Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[SelectButtonInFabTray execution is skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: SelectButtonInFabTray execution is skipped
+	at com.redbox.testscripts.SelectButtonInFabTray.startUp(SelectButtonInFabTray.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="SKIP" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.SelectButtonInFabTray@544fe44c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:49:03Z" finished-at="2018-01-18T15:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.redbox.testscripts.SelectButtonInFabTray@544fe44c]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:49:03Z" finished-at="2018-01-18T15:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="ManagelocationVerify()[pri:0, instance:com.redbox.testscripts.SelectButtonInFabTray@544fe44c]" name="ManagelocationVerify" duration-ms="0" started-at="2018-01-18T15:49:03Z" finished-at="2018-01-18T15:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagelocationVerify -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.redbox.testscripts.SelectButtonInFabTray@544fe44c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-01-18T15:49:03Z" finished-at="2018-01-18T15:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbox.testscripts.SelectButtonInFabTray -->
+    </test> <!-- Select Location by using select Button in Fab Tray  -->
+    <test name="Adding Show Maps Button in Default Location" duration-ms="151637" started-at="2018-01-18T10:19:03Z" finished-at="2018-01-18T10:21:34Z">
+      <class name="com.redbox.testscripts.ShowMapIconDefaultLocation">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.ShowMapIconDefaultLocation@66480dd7]" name="startUp" is-config="true" duration-ms="6278" started-at="2018-01-18T15:49:03Z" finished-at="2018-01-18T15:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.ShowMapIconDefaultLocation@66480dd7]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:49:09Z" finished-at="2018-01-18T15:49:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.ShowMapIconDefaultLocation.ManagelocationVerify() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ManagelocationVerify()[pri:0, instance:com.redbox.testscripts.ShowMapIconDefaultLocation@66480dd7]" name="ManagelocationVerify" duration-ms="145020" started-at="2018-01-18T15:49:09Z" finished-at="2018-01-18T15:51:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[show Map link displayed as ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ManagelocationVerify -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.ShowMapIconDefaultLocation@66480dd7]" name="tearDown" is-config="true" duration-ms="338" started-at="2018-01-18T15:51:34Z" finished-at="2018-01-18T15:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.ShowMapIconDefaultLocation@66480dd7]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:51:34Z" finished-at="2018-01-18T15:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.redbox.testscripts.ShowMapIconDefaultLocation -->
+    </test> <!-- Adding Show Maps Button in Default Location -->
+    <test name="Audience Review Games" duration-ms="117906" started-at="2018-01-18T10:21:34Z" finished-at="2018-01-18T10:23:32Z">
+      <class name="com.redbox.testscripts.AudienceReview_Games">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.AudienceReview_Games@2ac273d3]" name="startUp" is-config="true" duration-ms="5653" started-at="2018-01-18T15:51:34Z" finished-at="2018-01-18T15:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.AudienceReview_Games@2ac273d3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:51:40Z" finished-at="2018-01-18T15:51:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.AudienceReview_Games.audienceReviewScreen() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="audienceReviewScreen()[pri:0, instance:com.redbox.testscripts.AudienceReview_Games@2ac273d3]" name="audienceReviewScreen" duration-ms="111907" started-at="2018-01-18T15:51:40Z" finished-at="2018-01-18T15:53:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title screen displayed]]>
+            </line>
+            <line>
+              <![CDATA[Review screen displayed]]>
+            </line>
+            <line>
+              <![CDATA[0 Audience Reviews]]>
+            </line>
+            <line>
+              <![CDATA[Farming Simulator 17 PS4]]>
+            </line>
+            <line>
+              <![CDATA[(average : 0.0]]>
+            </line>
+            <line>
+              <![CDATA[Back Button displayed]]>
+            </line>
+            <line>
+              <![CDATA[item Icon displayed]]>
+            </line>
+            <line>
+              <![CDATA[My Bag Icon Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- audienceReviewScreen -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.AudienceReview_Games@2ac273d3]" name="tearDown" is-config="true" duration-ms="345" started-at="2018-01-18T15:53:32Z" finished-at="2018-01-18T15:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.AudienceReview_Games@2ac273d3]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:53:32Z" finished-at="2018-01-18T15:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.redbox.testscripts.AudienceReview_Games -->
+    </test> <!-- Audience Review Games -->
+    <test name="Audience Review TV" duration-ms="110162" started-at="2018-01-18T10:23:32Z" finished-at="2018-01-18T10:25:22Z">
+      <class name="com.redbox.testscripts.AudienceReview_TV">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.redbox.testscripts.AudienceReview_TV@2286778]" name="startUp" is-config="true" duration-ms="6592" started-at="2018-01-18T15:53:32Z" finished-at="2018-01-18T15:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.AudienceReview_TV@2286778]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:53:39Z" finished-at="2018-01-18T15:53:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbox.testscripts.AudienceReview_TV.audienceReviewScreen() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="audienceReviewScreen()[pri:0, instance:com.redbox.testscripts.AudienceReview_TV@2286778]" name="audienceReviewScreen" duration-ms="103264" started-at="2018-01-18T15:53:39Z" finished-at="2018-01-18T15:55:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[validation failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.redbox.testscripts.AudienceReview_TV.audienceReviewScreen(AudienceReview_TV.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title screen displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- audienceReviewScreen -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.redbox.testscripts.AudienceReview_TV@2286778]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:55:22Z" finished-at="2018-01-18T15:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbox.testscripts.AudienceReview_TV@2286778]" name="tearDown" is-config="true" duration-ms="305" started-at="2018-01-18T15:55:22Z" finished-at="2018-01-18T15:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbox.testscripts.AudienceReview_TV -->
+    </test> <!-- Audience Review TV -->
+    <test name="Location List In Ascending Order" duration-ms="116" started-at="2018-01-18T10:25:22Z" finished-at="2018-01-18T10:25:23Z">
+      <class name="com.redbox.testscripts.LocationListInAscendingOrder">
+        <test-method status="SKIP" signature="startUp()[pri:0, instance:com.redbox.testscripts.LocationListInAscendingOrder@5f9d02cb]" name="startUp" is-config="true" duration-ms="0" started-at="2018-01-18T15:55:22Z" finished-at="2018-01-18T15:55:22Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[LocationListInAscendingOrder execution is skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: LocationListInAscendingOrder execution is skipped
+	at com.redbox.testscripts.LocationListInAscendingOrder.startUp(LocationListInAscendingOrder.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.redbox.testscripts.LocationListInAscendingOrder@5f9d02cb]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-01-18T15:55:23Z" finished-at="2018-01-18T15:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.LocationListInAscendingOrder@5f9d02cb]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:55:23Z" finished-at="2018-01-18T15:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="ManagelocationVerify()[pri:0, instance:com.redbox.testscripts.LocationListInAscendingOrder@5f9d02cb]" name="ManagelocationVerify" duration-ms="0" started-at="2018-01-18T15:55:23Z" finished-at="2018-01-18T15:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagelocationVerify -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.redbox.testscripts.LocationListInAscendingOrder@5f9d02cb]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:55:23Z" finished-at="2018-01-18T15:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.redbox.testscripts.LocationListInAscendingOrder -->
+    </test> <!-- Location List In Ascending Order -->
+    <test name="Location Map is Dimmed " duration-ms="119" started-at="2018-01-18T10:25:23Z" finished-at="2018-01-18T10:25:23Z">
+      <class name="com.redbox.testscripts.LocationMapDimmed">
+        <test-method status="SKIP" signature="startUp()[pri:0, instance:com.redbox.testscripts.LocationMapDimmed@6c3708b3]" name="startUp" is-config="true" duration-ms="0" started-at="2018-01-18T15:55:23Z" finished-at="2018-01-18T15:55:23Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[LocationMapDimmed execution is skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: LocationMapDimmed execution is skipped
+	at com.redbox.testscripts.LocationMapDimmed.startUp(LocationMapDimmed.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="SKIP" signature="ManagelocationVerify()[pri:0, instance:com.redbox.testscripts.LocationMapDimmed@6c3708b3]" name="ManagelocationVerify" duration-ms="0" started-at="2018-01-18T15:55:23Z" finished-at="2018-01-18T15:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagelocationVerify -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.redbox.testscripts.LocationMapDimmed@6c3708b3]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:55:23Z" finished-at="2018-01-18T15:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.redbox.testscripts.LocationMapDimmed@6c3708b3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-01-18T15:55:23Z" finished-at="2018-01-18T15:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.redbox.testscripts.LocationMapDimmed@6c3708b3]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-01-18T15:55:23Z" finished-at="2018-01-18T15:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbox.testscripts.LocationMapDimmed -->
+    </test> <!-- Location Map is Dimmed  -->
+    <test name="Test script for project execution end time" duration-ms="7" started-at="2018-01-18T10:25:23Z" finished-at="2018-01-18T10:25:23Z">
+      <class name="com.appium.model.EndExecution">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.appium.model.EndExecution@2b2948e2]" name="endTime" duration-ms="7" started-at="2018-01-18T15:55:23Z" finished-at="2018-01-18T15:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+      </class> <!-- com.appium.model.EndExecution -->
+    </test> <!-- Test script for project execution end time -->
+  </suite> <!-- Suite -->
+</testng-results>

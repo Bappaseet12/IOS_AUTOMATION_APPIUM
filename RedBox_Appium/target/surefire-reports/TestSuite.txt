@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 34, Failures: 3, Errors: 0, Skipped: 20, Time elapsed: 1,687.123 sec <<< FAILURE! - in TestSuite
+launchApplication(com.redbox.testscripts.ScrollingUpAndScrollReel)  Time elapsed: 20.284 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at com.redbox.testscripts.ScrollingUpAndScrollReel.launchApplication(ScrollingUpAndScrollReel.java:86)
+
+ManagelocationVerify(com.redbox.testscripts.SearchLocationByCityStatePIN)  Time elapsed: 420.529 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.redbox.testscripts.SearchLocationByCityStatePIN.ManagelocationVerify(SearchLocationByCityStatePIN.java:102)
+
+audienceReviewScreen(com.redbox.testscripts.AudienceReview_TV)  Time elapsed: 103.265 sec  <<< FAILURE!
+java.lang.AssertionError: validation failed
+	at com.redbox.testscripts.AudienceReview_TV.audienceReviewScreen(AudienceReview_TV.java:146)
+

@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">18 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 3 failed,  4 skipped,  11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.SearchLocationByCityStatePIN" hash-for-method="ManagelocationVerify">ManagelocationVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.AudienceReview_TV" hash-for-method="audienceReviewScreen">audienceReviewScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.ScrollingUpAndScrollReel" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.SelectButtonInFabTray" hash-for-method="ManagelocationVerify">ManagelocationVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.LocationListInAscendingOrder" hash-for-method="ManagelocationVerify">ManagelocationVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.LocationMapDimmed" hash-for-method="ManagelocationVerify">ManagelocationVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.NewReleasesScreenTv" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.MapLocation" hash-for-method="ManagelocationVerify">ManagelocationVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.FabTrayKeyboadValidation" hash-for-method="ManagelocationVerify">ManagelocationVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.LocationBrowseAllBoxes" hash-for-method="ManagelocationVerify">ManagelocationVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.ShowMapIconDefaultLocation" hash-for-method="ManagelocationVerify">ManagelocationVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.AudienceReview_Games" hash-for-method="audienceReviewScreen">audienceReviewScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.appium.model.EndExecution" hash-for-method="endTime">endTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.NewReleaseScreenGames" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.NewReleaseScreenMovies" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.HomeScreenValidation" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.redbox.testscripts.ScrollHorizontalOnReels" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.appium.model.StartExecution" hash-for-method="startTime">startTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.redbox.testscripts.ScrollingUpAndScrollReel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.redbox.testscripts.ScrollingUpAndScrollReel.launchApplication(ScrollingUpAndScrollReel.java:86)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.redbox.testscripts.SearchLocationByCityStatePIN</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManagelocationVerify">
+                  </a> <!-- ManagelocationVerify -->
+                  <span class="method-name">ManagelocationVerify</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.redbox.testscripts.SearchLocationByCityStatePIN.ManagelocationVerify(SearchLocationByCityStatePIN.java:102)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.redbox.testscripts.AudienceReview_TV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="audienceReviewScreen">
+                  </a> <!-- audienceReviewScreen -->
+                  <span class="method-name">audienceReviewScreen</span>
+                  <div class="stack-trace">java.lang.AssertionError: validation failed
+	at com.redbox.testscripts.AudienceReview_TV.audienceReviewScreen(AudienceReview_TV.java:146)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.redbox.testscripts.SelectButtonInFabTray</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManagelocationVerify">
+                  </a> <!-- ManagelocationVerify -->
+                  <span class="method-name">ManagelocationVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.redbox.testscripts.LocationMapDimmed</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManagelocationVerify">
+                  </a> <!-- ManagelocationVerify -->
+                  <span class="method-name">ManagelocationVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.redbox.testscripts.NewReleasesScreenTv</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.redbox.testscripts.LocationListInAscendingOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManagelocationVerify">
+                  </a> <!-- ManagelocationVerify -->
+                  <span class="method-name">ManagelocationVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbox.testscripts.ShowMapIconDefaultLocation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManagelocationVerify">
+                  </a> <!-- ManagelocationVerify -->
+                  <span class="method-name">ManagelocationVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbox.testscripts.MapLocation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManagelocationVerify">
+                  </a> <!-- ManagelocationVerify -->
+                  <span class="method-name">ManagelocationVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbox.testscripts.NewReleaseScreenGames</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.appium.model.StartExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="startTime">
+                  </a> <!-- startTime -->
+                  <span class="method-name">startTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbox.testscripts.HomeScreenValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbox.testscripts.ScrollHorizontalOnReels</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbox.testscripts.LocationBrowseAllBoxes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManagelocationVerify">
+                  </a> <!-- ManagelocationVerify -->
+                  <span class="method-name">ManagelocationVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.appium.model.EndExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="endTime">
+                  </a> <!-- endTime -->
+                  <span class="method-name">endTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbox.testscripts.NewReleaseScreenMovies</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbox.testscripts.FabTrayKeyboadValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManagelocationVerify">
+                  </a> <!-- ManagelocationVerify -->
+                  <span class="method-name">ManagelocationVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.redbox.testscripts.AudienceReview_Games</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="audienceReviewScreen">
+                  </a> <!-- audienceReviewScreen -->
+                  <span class="method-name">audienceReviewScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/bappa.seet/Downloads/RedBox_Appium/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Suite&quot; parallel=&quot;none&quot;&gt;
+  &lt;test name=&quot;Test script for project execution start time&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.appium.model.StartExecution&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test script for project execution start time --&gt;
+  &lt;test name=&quot;Showing Map Location&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.MapLocation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Showing Map Location --&gt;
+  &lt;test name=&quot;Showing Map Locations&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.NewReleasesScreenTv&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Showing Map Locations --&gt;
+  &lt;test name=&quot;Showing New Release Screen in Games Tab&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.NewReleaseScreenGames&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Showing New Release Screen in Games Tab --&gt;
+  &lt;test name=&quot;Showing New Release Screen in Movies Tab&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.NewReleaseScreenMovies&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Showing New Release Screen in Movies Tab --&gt;
+  &lt;test name=&quot;Showing New Release Movie&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.HomeScreenValidation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Showing New Release Movie --&gt;
+  &lt;test name=&quot;Scrolling Reels Horizintally&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.ScrollHorizontalOnReels&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Scrolling Reels Horizintally --&gt;
+  &lt;test name=&quot;Scrolling Up and Scroll Reels&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.ScrollingUpAndScrollReel&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Scrolling Up and Scroll Reels --&gt;
+  &lt;test name=&quot;Validating Fab Tray Keyboard &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.FabTrayKeyboadValidation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validating Fab Tray Keyboard  --&gt;
+  &lt;test name=&quot;Validating Browse All option in Location Fab tray &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.LocationBrowseAllBoxes&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validating Browse All option in Location Fab tray  --&gt;
+  &lt;test name=&quot;Searching Location By City , State and PIN &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.SearchLocationByCityStatePIN&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Searching Location By City , State and PIN  --&gt;
+  &lt;test name=&quot;Select Location by using select Button in Fab Tray &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.SelectButtonInFabTray&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Select Location by using select Button in Fab Tray  --&gt;
+  &lt;test name=&quot;Adding Show Maps Button in Default Location&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.ShowMapIconDefaultLocation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Adding Show Maps Button in Default Location --&gt;
+  &lt;test name=&quot;Audience Review Games&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.AudienceReview_Games&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Audience Review Games --&gt;
+  &lt;test name=&quot;Audience Review TV&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.AudienceReview_TV&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Audience Review TV --&gt;
+  &lt;test name=&quot;Location List In Ascending Order&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.LocationListInAscendingOrder&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Location List In Ascending Order --&gt;
+  &lt;test name=&quot;Location Map is Dimmed &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.redbox.testscripts.LocationMapDimmed&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Location Map is Dimmed  --&gt;
+  &lt;test name=&quot;Test script for project execution end time&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.appium.model.EndExecution&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test script for project execution end time --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test script for project execution start time (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Showing Map Location (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Showing Map Locations (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Showing New Release Screen in Games Tab (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Showing New Release Screen in Movies Tab (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Showing New Release Movie (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Scrolling Reels Horizintally (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Scrolling Up and Scroll Reels (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validating Fab Tray Keyboard  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validating Browse All option in Location Fab tray  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Searching Location By City , State and PIN  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Select Location by using select Button in Fab Tray  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Adding Show Maps Button in Default Location (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Audience Review Games (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Audience Review TV (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Location List In Ascending Order (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Location Map is Dimmed  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test script for project execution end time (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ManagelocationVerify')
+data.setCell(0, 2, 'com.redbox.testscripts.SearchLocationByCityStatePIN')
+data.setCell(0, 3, 420528);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'launchApplication')
+data.setCell(1, 2, 'com.redbox.testscripts.ScrollHorizontalOnReels')
+data.setCell(1, 3, 374990);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ManagelocationVerify')
+data.setCell(2, 2, 'com.redbox.testscripts.LocationBrowseAllBoxes')
+data.setCell(2, 3, 151256);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ManagelocationVerify')
+data.setCell(3, 2, 'com.redbox.testscripts.ShowMapIconDefaultLocation')
+data.setCell(3, 3, 145020);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'launchApplication')
+data.setCell(4, 2, 'com.redbox.testscripts.NewReleaseScreenGames')
+data.setCell(4, 3, 122551);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'audienceReviewScreen')
+data.setCell(5, 2, 'com.redbox.testscripts.AudienceReview_Games')
+data.setCell(5, 3, 111907);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'audienceReviewScreen')
+data.setCell(6, 2, 'com.redbox.testscripts.AudienceReview_TV')
+data.setCell(6, 3, 103264);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ManagelocationVerify')
+data.setCell(7, 2, 'com.redbox.testscripts.FabTrayKeyboadValidation')
+data.setCell(7, 3, 75957);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'launchApplication')
+data.setCell(8, 2, 'com.redbox.testscripts.NewReleaseScreenMovies')
+data.setCell(8, 3, 43471);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'launchApplication')
+data.setCell(9, 2, 'com.redbox.testscripts.HomeScreenValidation')
+data.setCell(9, 3, 27263);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'launchApplication')
+data.setCell(10, 2, 'com.redbox.testscripts.ScrollingUpAndScrollReel')
+data.setCell(10, 3, 20280);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ManagelocationVerify')
+data.setCell(11, 2, 'com.redbox.testscripts.MapLocation')
+data.setCell(11, 3, 15601);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'startTime')
+data.setCell(12, 2, 'com.appium.model.StartExecution')
+data.setCell(12, 3, 52);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'endTime')
+data.setCell(13, 2, 'com.appium.model.EndExecution')
+data.setCell(13, 3, 7);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'launchApplication')
+data.setCell(14, 2, 'com.redbox.testscripts.NewReleasesScreenTv')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ManagelocationVerify')
+data.setCell(15, 2, 'com.redbox.testscripts.SelectButtonInFabTray')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ManagelocationVerify')
+data.setCell(16, 2, 'com.redbox.testscripts.LocationListInAscendingOrder')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ManagelocationVerify')
+data.setCell(17, 2, 'com.redbox.testscripts.LocationMapDimmed')
+data.setCell(17, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ManagelocationVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">location Icon is Displayed</span>
+                <span class="reporter-method-output">show Map link displayed as </span>
+                <span class="reporter-method-output">Map Handle icon displayed</span>
+                <span class="reporter-method-output">search Icon displayed  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchApplication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">New PS4 Inside Games Tab Displayed</span>
+                <span class="reporter-method-output">New PS4 Browse All Inside Games Tab Displayed</span>
+                <span class="reporter-method-output">New XBOX ONE Inside Games Tab Displayed</span>
+                <span class="reporter-method-output">New XBOX ONE Browse All Inside Games Tab Displayed</span>
+                <span class="reporter-method-output">New XBOX 360 Reel Inside Games Tab Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchApplication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">New At Box Reel Displayed</span>
+                <span class="reporter-method-output">New At the Box Browse All Displayed</span>
+                <span class="reporter-method-output">New On Demand Displayed</span>
+                <span class="reporter-method-output">New On Demand Browse All Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchApplication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">New Tab is Displayed</span>
+                <span class="reporter-method-output">Search Icon is Displayed</span>
+                <span class="reporter-method-output">My Bag Icon Displayed</span>
+                <span class="reporter-method-output">Movies Tab is Displayed</span>
+                <span class="reporter-method-output">TV Tab is Displayed</span>
+                <span class="reporter-method-output">Games Tab is Displayed</span>
+                <span class="reporter-method-output">Redbox Title is Displayed</span>
+                <span class="reporter-method-output">location Icon is Displayed</span>
+                <span class="reporter-method-output">Upcoming Tab is Displayed</span>
+                <span class="reporter-method-output">My Redbox Tab is Displayed</span>
+                <span class="reporter-method-output">Browse Tab is Displayed</span>
+                <span class="reporter-method-output">More Tab is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ManagelocationVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">location Icon is Displayed</span>
+                <span class="reporter-method-output">keyBoard displayed  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ManagelocationVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">location Icon is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ManagelocationVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">show Map link displayed as </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">audienceReviewScreen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Title screen displayed</span>
+                <span class="reporter-method-output">Review screen displayed</span>
+                <span class="reporter-method-output">0 Audience Reviews</span>
+                <span class="reporter-method-output">Farming Simulator 17 PS4</span>
+                <span class="reporter-method-output">(average : 0.0</span>
+                <span class="reporter-method-output">Back Button displayed</span>
+                <span class="reporter-method-output">item Icon displayed</span>
+                <span class="reporter-method-output">My Bag Icon Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">audienceReviewScreen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Title screen displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.appium.model.StartExecution</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">startTime</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.MapLocation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ManagelocationVerify</span>
+                <span class="method-start">6538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.MapLocation.ManagelocationVerify() throws java.lang.Exception)</span>
+                <span class="method-start">6538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">22140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22140 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.NewReleasesScreenTv</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">22477 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">22623 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.NewReleaseScreenGames</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">22635 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.NewReleaseScreenGames.launchApplication() throws java.lang.Except...)</span>
+                <span class="method-start">27789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">27789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">150341 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">150341 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.NewReleaseScreenMovies</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">150839 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.NewReleaseScreenMovies.launchApplication() throws java.lang.Excep...)</span>
+                <span class="method-start">155796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">155796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">199268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">199268 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.HomeScreenValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">199635 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.HomeScreenValidation.launchApplication() throws java.lang.Excepti...)</span>
+                <span class="method-start">204730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">204730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">231993 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">231993 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.ScrollHorizontalOnReels</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">232244 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.ScrollHorizontalOnReels.launchApplication() throws java.lang.Exce...)</span>
+                <span class="method-start">237447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">237447 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">612437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">612438 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.ScrollingUpAndScrollReel</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">612853 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.ScrollingUpAndScrollReel.launchApplication() throws java.lang.Exc...)</span>
+                <span class="method-start">619349 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">619350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">639633 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">639634 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.FabTrayKeyboadValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">640071 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ManagelocationVerify</span>
+                <span class="method-start">645373 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.FabTrayKeyboadValidation.ManagelocationVerify() throws java.lang....)</span>
+                <span class="method-start">645373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">721330 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">721330 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.LocationBrowseAllBoxes</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">721761 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ManagelocationVerify</span>
+                <span class="method-start">726953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.LocationBrowseAllBoxes.ManagelocationVerify() throws java.lang.Ex...)</span>
+                <span class="method-start">726953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">878209 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">878210 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.SearchLocationByCityStatePIN</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">878761 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ManagelocationVerify</span>
+                <span class="method-start">884079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.SearchLocationByCityStatePIN.ManagelocationVerify() throws java.l...)</span>
+                <span class="method-start">884079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1304608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1304608 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.SelectButtonInFabTray</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">1305165 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ManagelocationVerify</span>
+                <span class="method-start">1305272 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.ShowMapIconDefaultLocation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">1305395 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.ShowMapIconDefaultLocation.ManagelocationVerify() throws java.lan...)</span>
+                <span class="method-start">1311673 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ManagelocationVerify</span>
+                <span class="method-start">1311674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1456694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1456694 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.AudienceReview_Games</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">1457043 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">audienceReviewScreen</span>
+                <span class="method-start">1462697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.AudienceReview_Games.audienceReviewScreen() throws java.lang.Exce...)</span>
+                <span class="method-start">1462697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1574604 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1574604 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.AudienceReview_TV</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">1574992 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">audienceReviewScreen</span>
+                <span class="method-start">1581584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.redbox.testscripts.AudienceReview_TV.audienceReviewScreen() throws java.lang.Excepti...)</span>
+                <span class="method-start">1581584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1684849 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1684849 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.LocationListInAscendingOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">1685175 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ManagelocationVerify</span>
+                <span class="method-start">1685291 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.redbox.testscripts.LocationMapDimmed</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">1685308 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ManagelocationVerify</span>
+                <span class="method-start">1685425 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.appium.model.EndExecution</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">endTime</span>
+                <span class="method-start">1685434 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

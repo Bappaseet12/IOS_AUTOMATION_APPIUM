@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test script for project execution start time(failed)" parallel="none">
+    <classes>
+      <class name="com.appium.model.StartExecution">
+        <methods>
+          <include name="startTime"/>
+        </methods>
+      </class> <!-- com.appium.model.StartExecution -->
+      <class name="com.redbox.testscripts.FullFlow">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.redbox.testscripts.FullFlow -->
+    </classes>
+  </test> <!-- Test script for project execution start time(failed) -->
+</suite> <!-- Failed suite [Suite] -->
